@@ -1,18 +1,16 @@
 /* eslint-disable */
 import React from "react";
 import Section from "./Section";
-import Images from "./Images";
 import { TagList, TagListItem } from "./TagList";
-import Manish from "@/images/Dev/untitled.png";
 
 const Dev = () => {
   return (
     <>
-      <Images
+{/*       <Images
         className="mt-34 sm:mt-32 lg:mt-40"
         client={{ name: "Image", logo: Manish }}
         style={{ borderRadius: "4px" }}
-      />
+      /> */}
       <div className="mt-8"></div> {/* Add some space after the image */}
       <div className="space-y-6 text-base text-neutral-600">
         <p>
