@@ -10,5 +10,6 @@ import about from './about'
 import blog from './blog'
 import author from './author'
 import blockContent from './blockContent'
+import reviews from './reviews'
 
-export const schemaTypes = [home, about, ImgSlider, service, pricipal, Teachers, Students, studentGallery, teacherGallery, blog,author,blockContent]
+export const schemaTypes = [home, about, ImgSlider, service, pricipal, Teachers, Students, studentGallery, teacherGallery, blog,author,blockContent, reviews]

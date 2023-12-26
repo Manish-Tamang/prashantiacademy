@@ -8,6 +8,7 @@ import FadeIn from "@/components/FadeIn";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import ImageSlider from "@/components/Slider";
+import Reviews from "@/components/Reviews";
 import { createClient } from "@sanity/client";
 import imageUrlBuilder from "@sanity/image-url";
 import "@/styles/style.css";
@@ -88,6 +89,7 @@ export default function Home() {
         growth, and excellence. We're excited to embark on this educational
         journey together.
       </Testimonials>
+      <Reviews />
       <Services />
       <ContactSection />
     </main>
