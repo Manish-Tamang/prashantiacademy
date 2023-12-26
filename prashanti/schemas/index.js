@@ -10,6 +10,5 @@ import about from './about'
 import blog from './blog'
 import author from './author'
 import blockContent from './blockContent'
-import category from './category'
 
-export const schemaTypes = [home, about, ImgSlider, service, pricipal, Teachers, Students, studentGallery, teacherGallery, blog,author,blockContent,category]
+export const schemaTypes = [home, about, ImgSlider, service, pricipal, Teachers, Students, studentGallery, teacherGallery, blog,author,blockContent]
