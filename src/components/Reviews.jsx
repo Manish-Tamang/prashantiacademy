@@ -110,7 +110,7 @@ const Reviews = () => {
           stories.map((post) => (
             <div
               key={post._id}
-              className="flex flex-col gap-1 dark:text-white max-w-md w-full bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150 mx-auto"
+              className="flex flex-col gap-1 text-black max-w-md w-full bg-white p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150 mx-auto"
             >
               <div className="flex flex-row justify-between w-full">
                 <div className="flex flex-row justify-between w-full">
