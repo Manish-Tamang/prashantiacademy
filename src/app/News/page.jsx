@@ -82,7 +82,7 @@ const AllPosts = () => {
                         {post.title}
                       </h5>
                       <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                        {`${post.body[0].children[0].text.substring(0,200)}...`}
+                        {`${post.body[0].children[0].text.substring(0,600)}...`}
                       </p>
                       <div className="p-1 pt-2">
                         <Button>Read more</Button>
