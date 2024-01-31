@@ -1,7 +1,6 @@
 import React from "react";
 import PageIntro from "@/components/PageIntro";
 import Dev from "@/components/dev";
-import Manish from "@/images/Dev/Untitled.png";
 
 const Developer = () => {
   return (
