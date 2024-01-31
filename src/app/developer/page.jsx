@@ -6,7 +6,7 @@ import Manish from "@/images/Dev/Untitled.png";
 const Developer = () => {
   return (
     <>
-      <img src={Manish} alt="Manish Tamang" />
+{/*       <img src={Manish} alt="Manish Tamang" /> */}
       <PageIntro eyebrow="Developer" title="मनिष तामाङ">
         <p>
           Manish Tamang is a student of <strong>Prashanti Academy</strong>{" "}
