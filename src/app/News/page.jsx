@@ -59,10 +59,13 @@ const AllPosts = () => {
         <div className="container mx-auto">
           <h1
             style={{ marginTop: "30px" }}
-            className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl"
+            className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl text-center mb-12"
           >
             News & Events
           </h1>
+          <h3 className="text-lg text-gray-900 text-center mb-12">
+            Welcome to News & Events of Prashanti Academy
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 md:gap-8">
   {allPostsData.length > 0 ? (
     allPostsData.map((post) => (
