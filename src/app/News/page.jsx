@@ -63,11 +63,11 @@ const AllPosts = () => {
           >
             News & Events
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14">
-            {allPostsData.length > 0 ? (
-              allPostsData.map((post) => (
-                <Link to={`/${post.slug.current}`} key={post.slug.current}>
-                  <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 md:gap-8">
+  {allPostsData.length > 0 ? (
+    allPostsData.map((post) => (
+      <Link to={`/${post.slug.current}`} key={post.slug.current}>
+        <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-8">
                     <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
                       <img
                         className="w-full h-48 md:h-64 object-cover"
