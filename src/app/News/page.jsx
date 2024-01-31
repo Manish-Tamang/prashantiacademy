@@ -57,9 +57,12 @@ const AllPosts = () => {
       </Routes>
       <div className="bg-black-100 min-h-screen p-12">
         <div className="container mx-auto">
-          <h5 className="text-5xl text-gray-900 text-center mb-6">
+          <h1
+            style={{ marginTop: "30px" }}
+            className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl"
+          >
             News & Events
-          </h5>
+          </h1>
           <h3 className="text-lg text-gray-900 text-center mb-12">
             Welcome to News & Events of Prashanti Academy
           </h3>
