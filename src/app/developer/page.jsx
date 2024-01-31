@@ -1,16 +1,16 @@
-import PageIntro from "@/components/PageIntro";
 import React from "react";
+import PageIntro from "@/components/PageIntro";
 import Dev from "@/components/dev";
-import Manish from "@/images/dev/untitled.png";
+import Manish from "@/images/Dev/Untitled.png";
 
-const Devloper = () => {
+const Developer = () => {
   return (
     <>
-      <img src={Manish} />
+      <img src={Manish} alt="Manish Tamang" />
       <PageIntro eyebrow="Developer" title="मनिष तामाङ">
         <p>
-          Manish Tamang is a Student of <strong>Prashanti Academy</strong>{" "}
-          studies in grade-10 (2080 B.S/ 2023)
+          Manish Tamang is a student of <strong>Prashanti Academy</strong>{" "}
+          studying in grade-10 (2080 B.S/2023).
         </p>
         <Dev />
       </PageIntro>
@@ -18,4 +18,4 @@ const Devloper = () => {
   );
 };
 
-export default Devloper;
+export default Developer;
