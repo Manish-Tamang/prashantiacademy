@@ -3,7 +3,7 @@ import PageIntro from "@/components/PageIntro";
 import Dev from "@/components/dev";
 import Testimonials from "@/components/NotFound";
 import Container from "@/components/Container";
-import Manish from "../images/Untitled.png";
+import Manish from "..images/untitled.png";
 
 const Developer = () => {
   return (
