@@ -1,3 +1,7 @@
+>
+    </main>
+  );
+}
 /* eslint-disable */
 "use client";
 import React, { useState, useEffect } from "react";
@@ -8,7 +12,7 @@ import FadeIn from "@/components/FadeIn";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import ImageSlider from "@/components/Slider";
- import Reviews from "@/components/Reviews"; 
+import Reviews from "@/components/Reviews";
 import { createClient } from "@sanity/client";
 import imageUrlBuilder from "@sanity/image-url";
 import "@/styles/style.css";
@@ -54,22 +58,20 @@ export default function Home() {
   }, [slug]);
 
   if (!stories) return <div class="dot-spinner">
-  <div class="dot-spinner__dot"></div>
-  <div class="dot-spinner__dot"></div>
-  <div class="dot-spinner__dot"></div>
-  <div class="dot-spinner__dot"></div>
-  <div class="dot-spinner__dot"></div>
-  <div class="dot-spinner__dot"></div>
-  <div class="dot-spinner__dot"></div>
-  <div class="dot-spinner__dot"></div>
-</div>;
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+  </div>;
 
   return (
     <main className="text-black">
       <Container className="mt-24 sm:mt-32">
         <FadeIn className="max-w-3xl mx-auto">
-          {" "}
-          {/* Added mx-auto here */}
           <ImageSlider style={{ marginBottom: "50px" }} className="mx-auto" />
           <h1
             style={{ marginTop: "30px" }}
@@ -89,9 +91,18 @@ export default function Home() {
         growth, and excellence. We're excited to embark on this educational
         journey together.
       </Testimonials>
-  {  /* <Reviews /> */}
+      {/* <Reviews /> */}
       <Services />
       <ContactSection />
     </main>
   );
 }
+
+// Add meta data with the same values as title and stories.title or other relevant values used in the code
+const metaData = {
+  title: "Prashanti Academy",
+  description: {stories.description},
+  // Add more meta data properties as needed
+};
+
+export { metaData };
