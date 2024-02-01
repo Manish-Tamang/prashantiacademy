@@ -66,6 +66,13 @@ export default function Home() {
 
   return (
     <main className="text-black">
+    <Helmet>
+        <meta property="og:title" content="Prashanti Academy" />
+        <meta property="og:description" content="Prashanti Academy is a school near Budhanilkantha-12, Kapan, Kathmandu." />
+        <meta property="og:image" content="https://www.facebook.com/share/p/9mYjcN1gVcxyM3BU/?mibextid=xfxF2i" />
+        <meta property="og:url" content="https://v1-8.vercel.app" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Container className="mt-24 sm:mt-32">
         <FadeIn className="max-w-3xl mx-auto">
           <ImageSlider style={{ marginBottom: "50px" }} className="mx-auto" />
