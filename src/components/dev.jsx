@@ -32,7 +32,7 @@ const Dev = () => {
           for the guidance and assistance I received from various online
           tutorials, the invaluable support from ChatGPT, and the endless help
           from the Stack Overflow community. I'd also like to extend my
-          heartfelt thanks to <strong>Mr. Millan Sunwar</strong>, our computer teacher, whose
+          heartfelt thanks to <strong>Mr. Millan Kumar Sunuwar</strong>, our computer teacher, whose
           sponsorship of the web hosting and domain made this project possible.
           His encouragement was the driving force behind completing this project
           within a tight timeframe. Once again, thank you, Millan Sir, and to
