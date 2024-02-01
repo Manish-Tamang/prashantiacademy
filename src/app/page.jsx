@@ -97,7 +97,7 @@ export default function Home() {
 // Add meta data with the same values as title and stories.title or other relevant values used in the code
 const metaData = {
   title: "Prashanti Academy",
-  description: {stories.description},
+  description: stories.description,
   // Add more meta data properties as needed
 };
 
