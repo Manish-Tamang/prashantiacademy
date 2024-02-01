@@ -89,12 +89,6 @@ const Footer = () => {
             >
               <a href="/developer" title="Made with love by Manish Tamang">
                 Project by Manish Tamang{" "}
-                <img
-                  width="14"
-                  height="14"
-                  src="../images/namsate.jpg"
-                  alt="pixel-heart"
-                />{" "}
               </a>
             </p>
           </div>
