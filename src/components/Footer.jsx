@@ -89,7 +89,7 @@ const Footer = () => {
             >
               <a href="/developer" title="Made with love by Manish Tamang">
                 Project by Manish Tamang{" "}
-                <Image
+                <img
                   width="14"
                   height="14"
                   src="https://img.icons8.com/fluency/48/pixel-heart.png"
