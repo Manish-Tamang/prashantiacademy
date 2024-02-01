@@ -92,7 +92,7 @@ const Footer = () => {
                 <img
                   width="14"
                   height="14"
-                  src="https://www.facebook.com/share/p/9mYjcN1gVcxyM3BU/?mibextid=xfxF2i"
+                  src="../images/namsate.jpg"
                   alt="pixel-heart"
                 />{" "}
               </a>
