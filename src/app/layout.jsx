@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata = {
   title: {
     template: "blog_app",
-    default: "प्रशान्ति एकेडेमी",
+    default: "Prashanti Academy",
   },
 };
 
