@@ -25,7 +25,7 @@ export default function Header() {
               <DropdownMenuContent className="border border-gray-200 bg-white shadow-none rounded-none">
                 <DropdownMenuItem className="hover:bg-gray-100 focus:bg-gray-100">
                   <Link href="/about" className="w-full text-gray-900">
-                    School Info
+                    About us
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem className="hover:bg-gray-100 focus:bg-gray-100">
@@ -33,32 +33,8 @@ export default function Header() {
                     Principal's Message
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem className="hover:bg-gray-100 focus:bg-gray-100">
-                  <Link href="/teachers" className="w-full text-gray-900">
-                    Our Faculty
-                  </Link>
-                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-
-            <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center text-black hover:text-gray-700 focus:outline-none">
-                Academics <ChevronDown className="ml-1 h-4 w-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="border border-gray-200 bg-white shadow-none rounded-none">
-                <DropdownMenuItem className="hover:bg-gray-100 focus:bg-gray-100">
-                  <Link href="/teachers" className="w-full text-gray-900">
-                    Departments
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem className="hover:bg-gray-100 focus:bg-gray-100">
-                  <Link href="/about" className="w-full text-gray-900">
-                    Programs
-                  </Link>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-
             <Link href="/gallery" className="text-black hover:text-gray-700">
               Gallery
             </Link>
