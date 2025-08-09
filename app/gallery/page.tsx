@@ -1,7 +1,7 @@
 export default function Gallery() {
   const images = [
     {
-      src: "/images/bhaktapur.jpg",
+      src: "/images/Bhaktapur.jpg",
       alt: "School Building Exterior",
       ratio: "landscape",
     },
