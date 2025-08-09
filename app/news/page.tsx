@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { getAllArticles } from "./data"
+import { getAllArticles, NewsArticle } from "../../lib/news-data"
 
 export default function News() {
   const articles = getAllArticles()
@@ -10,7 +10,7 @@ export default function News() {
       <h1 className="text-3xl font-bold text-gray-900">News & Articles</h1>
 
       <div className="space-y-6">
-        {articles.map((article) => (
+        {articles.map((article: NewsArticle) => (
           <article key={article.id} className="border border-gray-200 p-6 rounded-lg">
             <div className="mb-4">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">

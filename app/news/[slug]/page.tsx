@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { getArticleBySlug } from "../data"
+import { getArticleBySlug } from "../../lib/news-data"
 import { notFound } from "next/navigation"
 
 interface Props {
