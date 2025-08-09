@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { getAllArticles, NewsArticle } from "../../lib/news-data"
+import { getAllArticles, NewsArticle } from "@/lib/news-data"
 
 export default function News() {
   const articles = getAllArticles()

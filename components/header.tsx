@@ -19,7 +19,7 @@ export default function Header() {
 
           <nav className="hidden md:flex space-x-4 mr-10">
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center text-black hover:text-gray-700 focus:outline-none">
+              <DropdownMenuTrigger className="flex items-center text-black font-bold hover:text-gray-700 focus:outline-none">
                 About <ChevronDown className="ml-1 h-4 w-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="border border-gray-200 bg-white shadow-none rounded-none">
@@ -35,13 +35,13 @@ export default function Header() {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-            <Link href="/gallery" className="text-black hover:text-gray-700">
+            <Link href="/gallery" className="text-black font-bold hover:text-gray-700">
               Gallery
             </Link>
-            <Link href="/news" className="text-black hover:text-gray-700">
+            <Link href="/news" className="text-black font-bold hover:text-gray-700">
               News
             </Link>
-            <Link href="/contact" className="text-black hover:text-gray-700">
+            <Link href="/contact" className="text-black font-bold hover:text-gray-700">
               Contact
             </Link>
           </nav>

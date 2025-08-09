@@ -11,7 +11,7 @@ export default function Gallery() {
       ratio: "portrait",
     },
     {
-      src: "images/sports-yellowhouse.jpg",
+      src: "/images/sports-yellowhouse.jpg",
       alt: "Yellow House",
       ratio: "square",
     },
